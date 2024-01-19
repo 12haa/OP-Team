@@ -4,7 +4,7 @@ import {motion} from "framer-motion";
 const Hero = () => {
     return (
         <div className="w-full bg-[#EFEFF7] items-center mx-auto  justify-center border-4 flex p-6 flex-col ">
-            <div className=" justify-center w-[98%]  h-[86px] flex items-center ">
+            <div className=" justify-center w-[98%]  h-[86px] flex items-center ml-20">
                 <Navbar/>
                 <img src="/src/assets/OPTeamLogo.png "
                      className="h-[100px] w-[200px] object-contain   z-0 relative
