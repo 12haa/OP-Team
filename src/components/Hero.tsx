@@ -7,7 +7,7 @@ const Hero = () => {
       <div className=" justify-center w-[98%]  h-[86px] flex items-center ml-20">
         <Navbar />
         <img
-          src="/src/assets/OPTeamLogo.png "
+          src="/assets/OPTeamLogo.png "
           className="h-[100px] w-[200px] object-contain   z-0 relative
                        right-10"
           alt="logo"
@@ -27,23 +27,27 @@ const Hero = () => {
       {/*Mid-Hero Section*/}
       <div className="border-4 w-full mt-10 flex items-center justify-between gap-4 h-[600px]">
         <div className="w-[70%] flex h-full items-center justify-between">
-          <span className="absolute left-[380px] bottom-[215px] z-1">
+          <span className="absolute left-[200px] bottom-[205px] z-1">
             <img
               alt="backring"
-              src="/src/assets/Ellipse_1.svg"
+              src="/assets/Ellipse_1.svg"
               className="w-120  object-cover"
             />
           </span>
           <img
-            src="/src/assets/Hero.png"
+            src="/assets/Hero.png"
             alt="heroImage"
             className="object-contain h-full w-full z-20 relative"
           />
-          <div className="flex flex-col border-4 w-[60%]  items-center  h-ful  justify-center flex-1">
-            <div className="w-full rounded-xl">
-              <h2 className="font-semibold text-[#00164E]">
+          <div className="flex flex-col border-4   items-center  h-full  justify-center w-[600px] ">
+            <div className="w-full rounded-xl border-4 flex flex-col gap-3 " dir="rtl">
+              <div className="bg-[#e7eefd] w-[40%]">
+                <h2 className="font-semibold text-[#00164E]   ">
                 به ما اعتماد کنید.
               </h2>
+              </div>
+                <h2 className="mt-4 text-2xl text-[#00004e] font-semibold tracking-wider" dir="rtl">ساخت انواع سایت های فروشگاهی،شرکتی،خبری و مقاله ایی،گیمینگ،شخصی و ....</h2>
+                <p className="mt-4 text-[16px] -tracking-tight text-[#00164E]">تیم خوش ذوق در حوزه برنامه نویسی و طراحی سایت</p>
             </div>
             <p></p>
           </div>
