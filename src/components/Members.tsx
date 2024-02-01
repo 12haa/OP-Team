@@ -10,7 +10,7 @@
             </div>
             <div className="flex mt-10  w-[67%] items-center justify-between ">
 
-                {[1,2,3,4,].map((card)=> (
+                {[1,2,3,4,].map(()=> (
                     <div className="bg-cover bg-center w-[286px] h-[452px] rounded-xl"
                          style={{backgroundImage: "url('/assets/Card.svg')"}}>
                         <div className="flex flex-col   w-full h-full  p-4" dir="rtl">
