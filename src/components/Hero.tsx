@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <div className="w-full bg-[#EFEFF7] items-center mx-auto  justify-center border-4 flex p-6 flex-col ">
+    <div className="w-full bg-[#EFEFF7] items-center mx-auto  justify-center  flex p-6 flex-col ">
       <div className=" justify-center w-[98%]  h-[86px] flex items-center ml-20">
         <Navbar />
         <img
@@ -25,7 +25,7 @@ const Hero = () => {
         <p className="text-[#00004E] text-md font-semibold  "> تماس با ما</p>
       </motion.div>
       {/*Mid-Hero Section*/}
-      <div className="border-4 w-full mt-10 flex items-center justify-between gap-4 h-[600px]">
+      <div className=" w-full mt-10 flex items-center justify-between gap-4 h-[600px]">
         <div className="w-[70%] flex h-full items-center justify-between">
           <span className="absolute left-[200px] bottom-[205px] z-1">
             <img
@@ -39,8 +39,8 @@ const Hero = () => {
             alt="heroImage"
             className="object-contain h-full w-full z-20 relative"
           />
-          <div className="flex flex-col border-4   items-center  h-full  justify-center w-[600px] ">
-            <div className="w-full rounded-xl border-4 flex flex-col gap-3 " dir="rtl">
+          <div className="flex flex-col    items-center  h-full  justify-center w-[600px] ">
+            <div className="w-full rounded-xl  flex flex-col gap-3 " dir="rtl">
               <div className="bg-[#e7eefd] w-[40%]">
                 <h2 className="font-semibold text-[#00164E]   ">
                 به ما اعتماد کنید.
